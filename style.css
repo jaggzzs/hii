@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f7e7ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ff69b4;
+}
+
+p {
+    font-size: 1.5em;
+    color: #555;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 15px 30px;
+    margin: 0 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.yes-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.yes-button:hover {
+    background-color: #45a049;
+}
+
+.no-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.no-button:hover {
+    background-color: #da190b;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 1em;
+    color: #888;
+}
+
+/* Flowers for after the "Yes!" response */
+.flowers {
+    margin-top: 30px;
+}
+
+.flowers img {
+    width: 200px;
+    height: auto;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Fade-in animation for flowers */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
