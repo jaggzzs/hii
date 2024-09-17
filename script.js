@@ -17,7 +17,7 @@ function handleResponse(response) {
     } else {
         container.innerHTML = `
             <h1>Oh no... 😞</h1>
-            <p>That's okay, Vaidehi. Maybe you're busy right now, but I'd still love to go on that indoor date with you sometime!</p>
+            <p>That's okay, Vaidehi. Maybe you're busy right now, but I'd still love to go on that  date with you sometime!</p>
             <footer>
                 <p>Created with ❤️ by Suhani</p>
             </footer>
@@ -28,7 +28,7 @@ function handleResponse(response) {
             container.innerHTML = `
                 <h1>Hey Vaidehi!</h1>
                 <p>There's something Suhani (me) wants to ask you... again 😅</p>
-                <h2>Will you reconsider going on a date (indoor) with her? 😊</h2>
+                <h2>Will you reconsider going on a date with her? 😊</h2>
                 <div class="buttons">
                     <a href="javascript:void(0);" class="yes-button" onclick="handleResponse('yes')">Yes!</a>
                     <a href="javascript:void(0);" class="no-button" onclick="handleResponse('no')">No 😞</a>
